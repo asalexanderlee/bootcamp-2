@@ -71,9 +71,10 @@ This is where ODMs (Object Document Mappers) come in. ODMs allow us to define ru
 * Try to insert objects into your models that violate one of your model constraints.
 
 ## Release 4
+_this is an optional release, but is very, very good practice._
 
 Write a todo application that runs in the terminal. It should do the following: 
 
 * Query the database and return an ordered list of all oustanding todos. 
 * Allow users to insert new todos. (Write the todo to the database and refresh the console.)
-* Allow users to delete todos from the list. (Remove the todo from the database and refresh the console.)
+* Allow users to delete todos from the list by typing the number of the todo. (Remove the todo from the database by id and refresh the console.)
