@@ -69,3 +69,11 @@ This is where ODMs (Object Document Mappers) come in. ODMs allow us to define ru
 * On your User model, write a function that seeds 100 users to the database.
 * On your Todo model, write a function that seeds 20000 unique tasks to the database.
 * Try to insert objects into your models that violate one of your model constraints.
+
+## Release 4
+
+Write a todo application that runs in the terminal. It should do the following: 
+
+* Query the database and return an ordered list of all oustanding todos. 
+* Allow users to insert new todos. (Write the todo to the database and refresh the console.)
+* Allow users to delete todos from the list. (Remove the todo from the database and refresh the console.)
