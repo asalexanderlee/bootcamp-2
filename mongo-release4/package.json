@@ -1,0 +1,17 @@
+{
+  "name": "mongo-release4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getTodos": "node app.js getOpenTodos",
+    "addTodo": "node app.js addTodo",
+    "deleteTodo": "node app.js deleteTodo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.12"
+  }
+}
